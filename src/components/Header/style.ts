@@ -41,10 +41,16 @@ export const StyledDiv = styled.div`
         position: relative;
         text-decoration: none;
         font-family: ${theme.font.defaultSystemTheme};
-        padding: 10px 0;
+        border-radius: 50%;
+        overflow: hidden;
+        width: 140px;
+        height: 140px;
+        margin-top: 10px;
+        box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
         img {
           vertical-align: middle;
-
+          width: 100%;
+          height: 100%;
           @media (max-width: ${theme.breakPoints.md}) {
             width: 75px;
           }

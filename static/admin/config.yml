@@ -26,8 +26,62 @@ collections:
           required: false,
         }
 
+  - name: "appetizer"
+    label: "Appetizer"
+    folder: "/content/kitchen_menu/appetizer"
+    create: true
+    slug: "{{name}}"
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Price", name: "price", widget: "string" }
+      - {
+          label: "Food Type",
+          name: "food_type",
+          widget: "select",
+          options: ["box", "vegan", "made here", "leaf", "kids", "new"],
+          multiple: true,
+          required: false,
+        }
+
+  - name: "tikka_masala"
+    label: "Tikka Masala"
+    folder: "/content/kitchen_menu/tikka_masala"
+    create: true
+    slug: "{{name}}"
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Price", name: "price", widget: "string" }
+      - {
+          label: "Food Type",
+          name: "food_type",
+          widget: "select",
+          options: ["box", "vegan", "made here", "leaf", "kids", "new"],
+          multiple: true,
+          required: false,
+        }
+
+  - name: "naan_side_item"
+    label: "Naan Side Items"
+    folder: "/content/kitchen_menu/naan_sides_item"
+    create: true
+    slug: "{{name}}"
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Price", name: "price", widget: "string" }
+      - {
+          label: "Food Type",
+          name: "food_type",
+          widget: "select",
+          options: ["box", "vegan", "made here", "leaf", "kids", "new"],
+          multiple: true,
+          required: false,
+        }
+
   - name: "momo"
-    label: "MoMo(Steamed Dumplings)"
+    label: "MoMo"
     folder: "/content/kitchen_menu/momo"
     create: true
     slug: "{{name}}"
@@ -96,6 +150,7 @@ collections:
           options: ["box", "vegan", "made here", "leaf", "kids", "new"],
           multiple: true,
           required: false,
+          default: "",
         }
 
   - name: "seafood_curries"
@@ -114,6 +169,7 @@ collections:
           options: ["box", "vegan", "made here", "leaf", "kids", "new"],
           multiple: true,
           required: false,
+          default: "",
         }
 
   - name: "biryani"
@@ -132,6 +188,26 @@ collections:
           options: ["box", "vegan", "made here", "leaf", "kids", "new"],
           multiple: true,
           required: false,
+          default: "",
+        }
+
+  - name: "add_vegetable_or_meat"
+    label: "Add Vegetable Or Meat"
+    folder: "/content/kitchen_menu/add_vegetable_or_meat"
+    create: true
+    slug: "{{name}}"
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Price", name: "price", widget: "string" }
+      - {
+          label: "Food Type",
+          name: "food_type",
+          widget: "select",
+          options: ["box", "vegan", "made here", "leaf", "kids", "new"],
+          multiple: true,
+          required: false,
+          default: "",
         }
 
   - name: "tandoori"
@@ -150,24 +226,7 @@ collections:
           options: ["box", "vegan", "made here", "leaf", "kids", "new"],
           multiple: true,
           required: false,
-        }
-
-  - name: "sides"
-    label: "Sides"
-    folder: "/content/kitchen_menu/sides"
-    create: true
-    slug: "{{name}}"
-    fields:
-      - { label: "Name", name: "name", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Price", name: "price", widget: "string" }
-      - {
-          label: "Food Type",
-          name: "food_type",
-          widget: "select",
-          options: ["box", "vegan", "made here", "leaf", "kids", "new"],
-          multiple: true,
-          required: false,
+          default: "",
         }
 
   - name: "non-alcholic-beverages"
@@ -186,6 +245,7 @@ collections:
           options: ["box", "vegan", "made here", "leaf", "kids", "new"],
           multiple: true,
           required: false,
+          default: "",
         }
 
   #######################
@@ -277,6 +337,14 @@ collections:
             name: "vegetable_tarkari_curry_description"
             widget: "string"
 
+          - label: "Tikka Masala Description"
+            name: "tikka_masala_description"
+            widget: "string"
+
+          - label: "Appetizer Description"
+            name: "appetizer_description"
+            widget: "string"
+
           - label: "Chicken Curry Description"
             name: "chicken_curry_description"
             widget: "string"
@@ -289,20 +357,24 @@ collections:
             name: "seafood_curry_description"
             widget: "string"
 
-          - label: "Momo Description"
-            name: "momo_description"
+          - label: "Add Vegetable Or Meat Description"
+            name: "add_vegetable_or_meat_description"
             widget: "string"
 
-          - label: "Sides Description"
-            name: "sides_description"
+          - label: "Naan Sides Item Description"
+            name: "naan_side_item_description"
+            widget: "string"
+
+          - label: "Momo Description"
+            name: "momo_description"
             widget: "string"
 
           - label: "Starter Salad Description"
             name: "starter_salad_description"
             widget: "string"
 
-          - label: "Himilayan Tandoori Description"
-            name: "himilayan_tandoori_description"
+          - label: "Tandoori Description"
+            name: "tandoori_description"
             widget: "text"
 
           - label: "Biryani Description"

@@ -1,39 +1,37 @@
 import React from "react";
-import DisplayMenu from "../../../DisplayMenu";
-import Accordion from "@/components/Accordion";
-import { TANDOORI } from "@/modules/KitchenMenu/constant/kitchen-menu-constant";
+import { ADD_VEGETABLE_MEAT } from "@/modules/KitchenMenu/constant/kitchen-menu-constant";
 import useAllMarkdownData from "@/hooks/useAllMarkdownData";
+import DisplayMenu from "../../../DisplayMenu";
 import menuHelper from "content/settings/kitchen_menu_helper.json";
 import Typography from "@/components/Typography";
 import { StyledDiv } from "./style";
 
-const Tandori = () => {
-  const data = useAllMarkdownData("tandoori");
+const AddVegetableMeat = () => {
+  const data = useAllMarkdownData("add_vegetable_or_meat");
 
   if (!data.length) return null;
 
-  const { tandoori_description = "" } = menuHelper || {};
+  const { add_vegetable_or_meat_description = "" } = menuHelper || {};
 
   return (
     <StyledDiv>
       <div className="dish-information-wrapper">
         <Typography as="h3" className="menu-title">
-          {TANDOORI}
+          {ADD_VEGETABLE_MEAT}
         </Typography>
-        {tandoori_description && (
+        {add_vegetable_or_meat_description && (
           <Typography as="subtitle2" className="dish-note-content">
-            {tandoori_description}
+            {add_vegetable_or_meat_description}
           </Typography>
         )}
       </div>
-
       <div className="menu-wrapper">
-        {data.map((x, i) => {
-          return <DisplayMenu {...x} key={i} />;
+        {data.map((item, i) => {
+          return <DisplayMenu {...item} key={i} />;
         })}
       </div>
     </StyledDiv>
   );
 };
 
-export default Tandori;
+export default AddVegetableMeat;

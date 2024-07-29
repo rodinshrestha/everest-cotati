@@ -12,7 +12,7 @@ exports.createSchemaCustomization = ({ actions }) => {
         name: String
         description: String
         price: String
-        food_type: String
+        food_type: [String]
       }
     `;
   createTypes(typeDefs);

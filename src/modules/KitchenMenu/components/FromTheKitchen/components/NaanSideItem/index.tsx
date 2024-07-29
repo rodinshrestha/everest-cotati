@@ -1,37 +1,37 @@
 import React from "react";
-import DisplayMenu from "../../../DisplayMenu";
-import { HIMILAYAN_TANDOOR } from "@/modules/KitchenMenu/constant/kitchen-menu-constant";
+import { NAAN_SIDES_ITEM } from "@/modules/KitchenMenu/constant/kitchen-menu-constant";
 import useAllMarkdownData from "@/hooks/useAllMarkdownData";
+import DisplayMenu from "../../../DisplayMenu";
 import menuHelper from "content/settings/kitchen_menu_helper.json";
 import Typography from "@/components/Typography";
 import { StyledDiv } from "./style";
 
-const HimilayanTandoori = () => {
-  const data = useAllMarkdownData("himilayan_tandoori");
+const NaanSideItem = () => {
+  const data = useAllMarkdownData("naan_sides_item");
 
   if (!data.length) return null;
 
-  const { himilayan_tandoori_description = "" } = menuHelper || {};
+  const { naan_side_item_description = "" } = menuHelper || {};
 
   return (
     <StyledDiv>
       <div className="dish-information-wrapper">
         <Typography as="h3" className="menu-title">
-          {HIMILAYAN_TANDOOR}
+          {NAAN_SIDES_ITEM}
         </Typography>
-        {himilayan_tandoori_description && (
+        {naan_side_item_description && (
           <Typography as="subtitle2" className="dish-note-content">
-            {himilayan_tandoori_description}
+            {naan_side_item_description}
           </Typography>
         )}
       </div>
       <div className="menu-wrapper">
-        {data.map((x, i) => {
-          return <DisplayMenu {...x} key={i} />;
+        {data.map((item, i) => {
+          return <DisplayMenu {...item} key={i} />;
         })}
       </div>
     </StyledDiv>
   );
 };
 
-export default HimilayanTandoori;
+export default NaanSideItem;

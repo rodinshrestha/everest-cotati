@@ -1,37 +1,37 @@
 import React from "react";
-import DisplayMenu from "../../../DisplayMenu";
-import Accordion from "@/components/Accordion";
-import { SIDES } from "@/modules/KitchenMenu/constant/kitchen-menu-constant";
+import { APPETIZER } from "@/modules/KitchenMenu/constant/kitchen-menu-constant";
 import useAllMarkdownData from "@/hooks/useAllMarkdownData";
+import DisplayMenu from "../../../DisplayMenu";
 import menuHelper from "content/settings/kitchen_menu_helper.json";
 import Typography from "@/components/Typography";
+import { StyledDiv } from "./style";
 
-const Sides = () => {
-  const data = useAllMarkdownData("sides");
+const Appetizer = () => {
+  const data = useAllMarkdownData("appetizer");
 
   if (!data.length) return null;
 
-  const { sides_description = "" } = menuHelper || {};
+  const { appetizer_description = "" } = menuHelper || {};
 
   return (
-    <div>
+    <StyledDiv>
       <div className="dish-information-wrapper">
         <Typography as="h3" className="menu-title">
-          {SIDES}
+          {APPETIZER}
         </Typography>
-        {sides_description && (
+        {appetizer_description && (
           <Typography as="subtitle2" className="dish-note-content">
-            {sides_description}
+            {appetizer_description}
           </Typography>
         )}
       </div>
       <div className="menu-wrapper">
-        {data.map((x, i) => {
-          return <DisplayMenu {...x} key={i} />;
+        {data.map((item, i) => {
+          return <DisplayMenu {...item} key={i} />;
         })}
       </div>
-    </div>
+    </StyledDiv>
   );
 };
 
-export default Sides;
+export default Appetizer;

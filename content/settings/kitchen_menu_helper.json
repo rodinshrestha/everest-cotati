@@ -1,14 +1,16 @@
 {
-  "vegetable_tarkari_curry_description": "(All the curry dishes served with a choice of steamed Basmati or Brown Rice) Please let us know if you like your curries mild, medium or spicy",
-  "chicken_curry_description": "ALL THE CURRIES ARE SERVED WITH YOUR CHOICE OF RICE OR PLAIN/BUTTER NAAN. UPGRADE OTHER NAAN FOR EXTRA CHARGE",
-  "lamb_curry_description": "ALL THE CURRIES ARE SERVED WITH YOUR CHOICE OF RICE OR PLAIN/BUTTER NAAN. UPGRADE OTHER NAAN FOR EXTRA CHARGE",
-  "seafood_curry_description": "ALL THE CURRIES ARE SERVED WITH YOUR CHOICE OF RICE OR PLAIN/BUTTER NAAN. UPGRADE OTHER NAAN FOR EXTRA CHARGE",
-  "momo_description": "Delicious Handmade dumplings served with homemade special mo:mo sauce. 8 pcs or 12 pcs",
+  "vegetable_tarkari_curry_description": "",
+  "chicken_curry_description": "",
+  "lamb_curry_description": "",
+  "seafood_curry_description": "",
+  "momo_description": "Delicious Handmade dumplings served with homemade special mo:mo sauce. 6 pcs / 10 pcs",
   "sides_description": "",
   "starter_salad_description": "",
   "tandoori_description": "All tandoori dishes served with basmati or brown rice or butter naan. Substitute to garlic or garlic cilantro add $1.75",
-  "biryani_description": "Saffron flavored basmati rice stir fried with caramelized onion, raisin,House blended spices, mint and cilantro. Served with side Raita (yogurt condiment)",
-  "chowmein_description": "Yummy Pan- fried noodle with onion, cabbage, carrot, green beans, soy sauce & chef's special spices.",
+  "biryani_description": "Saffron flavored basmati rice stir fried with caramelized onion, roasted cashews, raisin and house blended spices. Served with side Raita",
   "non_beverages_alcholic_description": "",
-  "himilayan_tandoori_description": "Marinated overnight with special blend of spices, cooked in traditional clay oven & served sizzling hot. Served with choice of rice or plain/butter naan. rice. Upgrade other naan for extra charge."
+  "appetizer_description": "",
+  "naan_side_item_description": "Prices are for each items",
+  "add_vegetable_or_meat_description": "",
+  "tikka_masala_description": "Cooked in Special blend of spices, tomato, onion and creamy sauce we also can make it with Coconut cream, please let your server know"
 }

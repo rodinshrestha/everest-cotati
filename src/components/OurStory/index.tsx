@@ -16,9 +16,9 @@ const OurStory = () => {
           <Col>
             <div className="our-story-wrapper">
               <div className="our-story-title">
-                {/* <Typography as="h2" className="section-title">
+                <Typography as="h2" className="section-title">
                   Our Story
-                </Typography> */}
+                </Typography>
                 {story_sub_description && (
                   <Typography as="h6" className="section-title-helper">
                     {story_sub_description}
