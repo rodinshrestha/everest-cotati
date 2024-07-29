@@ -1,5 +1,5 @@
 ---
 name: Chicken Momo
-description: Dumplings filled with ground chicken breast, cabbage, onions, cilantro & chef's spices.
-price: $13.95 / $17.95
+description: Steamed dumpling filled with ground organic chicken breast and spices..
+price: $10.00 / $15.00
 ---

@@ -14,8 +14,9 @@ const KitchenMenu = () => {
   return (
     <StyledDiv>
       <SectionBgImage
-        title="Taste from the Himalayas"
-        bgImage="https://ucarecdn.com/3050f742-fbcb-4856-a5f0-20fb3134de0c/-/crop/2135x3292/590,316/-/preview/-/progressive/yes/-/format/auto/-/resize/2000x/"
+        title="From the Kitchen"
+        description="Authentic Himalayan cuisine in downtown Cotati"
+        bgImage="https://ucarecdn.com/77fa410d-bf68-4302-b095-f97271021eaf/-/progressive/yes/-/format/auto/-/resize/2000x/"
       />
       <Container fluid>
         <Row>

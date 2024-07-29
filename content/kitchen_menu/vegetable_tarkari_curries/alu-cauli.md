@@ -1,5 +1,5 @@
 ---
 name: Aloo Cauli
-description: Cauliflower & potato with special homemade sauce.
-price: $15.25
+description: Cauliflower and Russet potatoes simmered with tomatoes cilantro and spices.
+price: $15.00
 ---

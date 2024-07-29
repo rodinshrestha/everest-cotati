@@ -1,5 +1,4 @@
 ---
-name: Himalayan Tea
-description: Honey , Lemon , Ginger.
-price: $4.95
+name: Masala chai Tea (one refill only)
+price: $4.00
 ---

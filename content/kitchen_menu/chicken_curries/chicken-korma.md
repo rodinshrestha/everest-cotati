@@ -1,5 +1,5 @@
 ---
 name: Chicken Korma
-description: Boneless chicken slow cooked with spices in cashew creamy curry sauce.
-price: $18.55
+description: Chicken (dark meat) cooked with cashew nuts, raisins, cream & spices.
+price: $19.25
 ---

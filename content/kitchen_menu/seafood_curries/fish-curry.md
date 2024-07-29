@@ -1,5 +1,5 @@
 ---
 name: Fish Curry
-description: Salmon simmered in creamy coconut sauce with chef's special spices.
-price: $19.95
+description: Fish smoked lightly in Tandoor and cooked with garlic, herb and spices in a lemon butter sauce.
+price: $18.00
 ---

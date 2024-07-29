@@ -1,5 +1,5 @@
 ---
 name: Alu Bahnt (Nepalese Dish)
-description: Potato & egg plant made with homemade sauce.
-price: $15.25
+description: Himalayan style cubes of eggplant and potatoes in curry sauce.
+price: $15.00
 ---

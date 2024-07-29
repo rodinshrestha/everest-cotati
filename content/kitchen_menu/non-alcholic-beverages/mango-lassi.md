@@ -1,5 +1,5 @@
 ---
 name: Mango Lassi
-description: Mango smoothie made with mango, yoghurt , whole milk & honey.
-price: $4.95
+description: Yogurt mixture with fresh mango puree.
+price: $4.75
 ---

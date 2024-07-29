@@ -1,5 +1,4 @@
 ---
 name: Vegetable Biryani
-description: Seasonal mix veggies
-price: $16.00
+price: $14.50
 ---

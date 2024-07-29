@@ -1,5 +1,5 @@
 ---
 name: Butter Chicken
-description: Chicken slow cooked in homemade buttery sauce.
-price: $18.95
+description: Boneless dark meat cooked with mildly spiced fenugreek butter cream sauce.
+price: $18.00
 ---

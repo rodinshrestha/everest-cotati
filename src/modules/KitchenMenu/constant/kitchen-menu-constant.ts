@@ -1,4 +1,4 @@
-export const APPETIZER_SOUP_SALAD = "Appetizers, Soup and Salad";
+export const SOUP_SALAD = "SOUP AND SALAD";
 export const MOMO_STEAMED = "MO:MO मोमो (NEPALESE STEAMED DUMPLING)";
 export const VEGETABLE_TARKARI = "VEGETARIAN CURRY ( साग सब्जीको तरकारी)";
 export const TIKA_MASALA = "Tika Masala (MOST POPULAR)";

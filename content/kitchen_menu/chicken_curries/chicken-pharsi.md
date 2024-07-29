@@ -1,5 +1,5 @@
 ---
-name: Kukhura Pharsi (Chicken & Pumpkin)
-description: Chicken & butter nut squash cooked in homemade curry sauce.
-price: $17.95
+name: Kukhura Pharsi
+description: Chicken and Pumpkin cooked with thick cumin sichuan squash sauce.
+price: $18.00
 ---

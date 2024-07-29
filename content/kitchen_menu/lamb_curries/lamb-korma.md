@@ -1,5 +1,5 @@
 ---
 name: Lamb Korma
-description: Boneless lamb cooked in cream, cashew sauce.
-price: $19.55
+description: Succulent tender lamb cooked with cashew and raisin in fenugreek cream sauce.
+price: $18.50
 ---

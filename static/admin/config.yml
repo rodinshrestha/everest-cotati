@@ -8,9 +8,9 @@ media_folder: "static/uploads"
 public_folder: /uploads
 
 collections:
-  - name: "appetizers_soup_salad"
-    label: "Appetizers, Soup and Salad"
-    folder: "/content/kitchen_menu/appetizers_soup_salad"
+  - name: "soup_salad"
+    label: "Soup and Salad"
+    folder: "/content/kitchen_menu/soup_salad"
     create: true
     slug: "{{name}}"
     fields:
@@ -134,9 +134,9 @@ collections:
           required: false,
         }
 
-  - name: "himilayan-tandoori"
-    label: "Himilayan Tandoori"
-    folder: "/content/kitchen_menu/himilayan-tandoori"
+  - name: "tandoori"
+    label: "Tandoori"
+    folder: "/content/kitchen_menu/tandoori"
     create: true
     slug: "{{name}}"
     fields:

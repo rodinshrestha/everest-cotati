@@ -1,5 +1,5 @@
 ---
 name: Chana Masala
-description: Flavorful garbanzo beans cooked with blend of spices in curry sauce.
-price: $14.95
+description: Organic Garbanzo beans with herbs in an onion gravy .
+price: $15.00
 ---

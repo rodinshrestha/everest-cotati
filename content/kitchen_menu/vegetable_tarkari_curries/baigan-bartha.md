@@ -1,5 +1,5 @@
 ---
 name: Baigan Bartha
-description: Eggplant baked in a clay oven, mashed, & cooked with green peas in tomato onion based sauce.
-price: $16.25
+description: Fire roasted eggplant mashed and cooked in fresh ground spices, onion, green peas, Tomato, ginger and garlic.
+price: $18.00
 ---

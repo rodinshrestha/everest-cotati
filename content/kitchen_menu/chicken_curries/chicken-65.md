@@ -1,5 +1,7 @@
 ---
-name: Chicken 65
-description: Boneless chicken marinated in special spices, ginger, garlic, egg, yogurt, lemon juice & soy sauce. Sautéed with curry leaves & mustard seeds.
-price: $18.95
+name: Chicken 65 (Must Try!!!)
+description: Boneless Chicken marinated in special spices, Ginger, garlic, Egg,lemon juice and sautÃ©ed with fresh curry leaves, mustard seeds and yogurt.
+price: $19.50
+food_type:
+  - new
 ---
