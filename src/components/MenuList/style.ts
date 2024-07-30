@@ -16,6 +16,7 @@ export const StyledUl = styled.ul`
       flex-direction: column;
       gap: 40px;
       list-style: none;
+      z-index: 999999;
 
       @media (max-width: ${theme.breakPoints.md}) {
         height: calc(100% - 60px);

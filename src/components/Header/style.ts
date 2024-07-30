@@ -47,13 +47,16 @@ export const StyledDiv = styled.div`
         height: 140px;
         margin-top: 10px;
         box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+
+        @media (max-width: ${theme.breakPoints.md}) {
+          width: 100px;
+          height: 100px;
+        }
+
         img {
           vertical-align: middle;
           width: 100%;
           height: 100%;
-          @media (max-width: ${theme.breakPoints.md}) {
-            width: 75px;
-          }
         }
 
         .logo-title {
