@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: rodinshrestha/yakandyeti
+  repo: rodinshrestha/everest-cotati
   branch: main
 
 publish_mode: editorial_workflow
@@ -385,19 +385,6 @@ collections:
             name: "non_beverages_alcholic_description"
             widget: "string"
 
-  #######################
-  # Everest trek details
-  #######################
-
-  - name: "everest-trek"
-    label: "Everest Base Camp Trek"
-    files:
-      - label: Everest Base Camp Trek
-        name: everest-base-camp-description
-        file: "/content/everest_base_camp_trek/everest-base-camp-description.md"
-        fields:
-          - { label: "Description", name: "description", widget: "markdown" }
-
   # #######################
   # Page SEO
   # #######################
@@ -408,7 +395,7 @@ collections:
       # Home Page SEO
       - label: Home Page SEO
         name: home-page-seo
-        file: "content/seo/home-page.json"
+        file: "content/seo/home-page-seo.json"
         fields:
           - label: "Seo Title"
             name: "seo_title"
@@ -460,23 +447,6 @@ collections:
       - label: Menu Page SEO
         name: menu-page-seo
         file: "content/seo/menu-page-seo.json"
-        fields:
-          - label: "Seo Title"
-            name: "seo_title"
-            widget: "string"
-
-          - label: "Meta Description"
-            name: "meta_description"
-            widget: "string"
-
-          - label: "Meta Keywords"
-            name: "meta_keywords"
-            widget: "string"
-
-      # Everest Experience Page SEO
-      - label: Everest Experience Page SEO
-        name: everest-experience-page-seo
-        file: "content/seo/experience-page-seo.json"
         fields:
           - label: "Seo Title"
             name: "seo_title"
