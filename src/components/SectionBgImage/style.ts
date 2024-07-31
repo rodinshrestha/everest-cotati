@@ -14,7 +14,7 @@ export const StyledDiv = styled.div<{ $bgImage: string }>`
       position: relative;
       background-size: cover;
       .menu-title-content {
-        z-index: 10;
+        z-index: 2;
         position: relative;
         color: #fff;
         display: flex;
