@@ -24,6 +24,20 @@ export const StyledDiv = styled.div`
       }
     }
 
+    @media (max-width: ${theme.breakPoints.md}) {
+      &:hover {
+        .h6 {
+          text-decoration: unset;
+        }
+
+        .price-group {
+          font-weight: unset;
+          .span {
+            text-decoration: unset;
+          }
+        }
+      }
+    }
     .price-group {
       display: flex;
       white-space: nowrap;

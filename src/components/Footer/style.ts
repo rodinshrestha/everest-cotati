@@ -6,6 +6,8 @@ export const StyledFooter = styled.footer`
     justify-content: center;
     align-items: center;
     padding: 20px 0;
+    text-align: center;
+
     .copyright {
       list-style: none;
       font-family: ${theme.font.defaultSystemTheme};
@@ -13,6 +15,7 @@ export const StyledFooter = styled.footer`
       opacity: 0.3;
       color: ${theme.coreColor.textColor};
       letter-spacing: 2px;
+      word-break: break-all;
     }
   `}
 `;

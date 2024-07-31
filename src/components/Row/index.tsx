@@ -38,7 +38,6 @@ const RowWrapper = styled.div<RowProps & { $noGutter: boolean }>`
   ${({ $noGutter }) => css`
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
     height: 100%;
 
     ${$noGutter
